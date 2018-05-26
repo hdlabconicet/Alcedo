@@ -1,8 +1,7 @@
 # Alcedo
 
 # CONTEXT
-World-Historical Gazetteer project (WHG)
-Pelagios
+The LatAm project is an international collaboration of digital humanities scholars from [Brumfield Labs](http://www.brumfieldlabs.com/), [LLILAS Benson](https://llilasbenson.utexas.edu/), [World Historical Gazetteer](http://whgazetteer.org/), and [CONICET](http://www.conicet.gov.ar/). This project has been awarded with a Resource Development Grant by [Pelagios Commons](http://commons.pelagios.org/resource-development-grants/).
 
 # OBJECTIVE
 Build a digital version of Alcedo's gazetteer
@@ -12,12 +11,10 @@ Source: archive.org
 
 Content: place names of Latin America with geographical/historical description
 
-Spanish version
-	- 1786 original
-	- 5 volumes
-	- different versions
-		- Getty Research Institute: https://archive.org/details/gri_33125011176118
-		- Duke University Libraries: https://archive.org/details/diccionariogeogr01alce
+Spanish version:
+- 1786 original
+- 5 volumes
+- [Getty Research Institute's](https://archive.org/details/gri_33125011176118) version
     
 # COMMENTS
 - at the end of volumes 1 &3 there are 'addiciones & correcciones' sections
