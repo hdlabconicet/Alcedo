@@ -14,7 +14,12 @@ Content: place names of Latin America with geographical/historical description
 Spanish version:
 - 1786 original
 - 5 volumes
-- [Getty Research Institute's](https://archive.org/details/gri_33125011176118) version
+- [John Carter Brown Library's](https://archive.org/details/geographicalhist06alce) version
+
+English translation:
+- 1812
+- George Alexander Thompson's Geographical and Historical Dictionary of America and the West Indies
+- contais substantial expansions and updates
     
 # COMMENTS
 - at the end of volumes 1 &3 there are 'addiciones & correcciones' sections
