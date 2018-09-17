@@ -1,1 +1,0 @@
-../Thompson/thompson-3.txt
