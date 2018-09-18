@@ -6,6 +6,11 @@ thompson_pages = {}
 alcedo_lines = alcedo_text.split("\n");0
 
 current_page = 3
+# AMERICA is 7 pages
+# BRAZIL is 30 pages
+# CHILE is 51 pages
+MAX_PAGES_PER_ENTRY = 51
+
 paginated = {}
 alcedo_lines.each_with_index do |line,i|
   if line.match /([A-Z]{2,})/
@@ -13,10 +18,14 @@ alcedo_lines.each_with_index do |line,i|
     tentative_page = thompson_pages[headword]
 #    print "#{i}\tthompson_pages[#{headword}] => #{thompson_pages[headword]}\n"
     if tentative_page && headword.match(/^[A-C]/)
-      print "#{i}\t#{headword}\t#{tentative_page}\t#{(tentative_page.to_i - current_page.to_i)}\n"
-      if (tentative_page.to_i - current_page.to_i) < 4
-        print "#{i}\tcurrent_page #{current_page} -> #{tentative_page}\n"
-        current_page = tentative_page
+#      print "#{i}\t#{headword}\t#{tentative_page}\t#{(tentative_page.to_i - current_page.to_i)}\n"
+      if tentative_page.to_i > current_page.to_i 
+        if (tentative_page.to_i - current_page.to_i) <= MAX_PAGES_PER_ENTRY
+          print "#{i}\tcurrent_page #{current_page} -> #{tentative_page}\n"
+          current_page = tentative_page
+        else
+          print "#{i}\tSKIP\t#{headword.rjust(9,' ')}\t#{tentative_page}\t#{(tentative_page.to_i - current_page.to_i)}\n"
+        end
       end
     end
   end
