@@ -53,6 +53,20 @@ paginated.keys.each do |page_no|
   end
 end
 
+
+
+transcribe= "https://fromthepage.lib.utexas.edu/benwbrum/latam-digital-edition-and-gazetteer/alcedo-thompson-1/transcribe"
+github_url = "https://raw.githubusercontent.com/benwbrum/Alcedo/master/FTP/thompson/v1"
+
+markdown = ""
+work.pages.each do |page|
+  filename = page.title.rjust(3,"0") + ".txt"
+  file_link = "#{github_url}/#{filename}"
+  ftp_link = "#{transcribe}/#{page.id}"
+  markdown << "* #{page.title} [copy](#{file_link}) [paste](#{ftp_link})\n"
+end
+File.write("/home/benwbrum/dev/clients/delrio/alcedo/mine/Alcedo/FTP/thompson/README.md", markdown)
+
 # patterns: always follow a newline
 
 
@@ -92,7 +106,8 @@ REPLACEMENTS={
   'Nueva España' => '[[Nueva España]]',
   '[[Nueva]] Espana' => '[[Nueva España]]',
   '[[Nueva]] España' => '[[Nueva España]]',
-  '[[[[Nueva España]]]' => '[[Nueva España]]'
+  '[[[[Nueva España]]]]' => '[[Nueva España]]',
+  '[[Nueva]] Vizcaya' => '[[Nueva Vizcaya]]'
 }
 
 
