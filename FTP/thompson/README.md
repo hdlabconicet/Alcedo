@@ -1,5 +1,8 @@
-* Untitled Page 1 [copy](https://raw.githubusercontent.com/benwbrum/Alcedo/master/FTP/thompson/v1/Untitled Page 1.txt) [paste](https://fromthepage.lib.utexas.edu/benwbrum/latam-digital-edition-and-gazetteer/alcedo-thompson-1/transcribe/8764)
-* Untitled Page 2 [copy](https://raw.githubusercontent.com/benwbrum/Alcedo/master/FTP/thompson/v1/Untitled Page 2.txt) [paste](https://fromthepage.lib.utexas.edu/benwbrum/latam-digital-edition-and-gazetteer/alcedo-thompson-1/transcribe/8765)
+==Pre-formatted Pages==
+
+Note that placenames with spaces in them will need manual editing, and
+that only a handful of containing entities have been tagged.
+
 * 3 [copy](https://raw.githubusercontent.com/benwbrum/Alcedo/master/FTP/thompson/v1/003.txt) [paste](https://fromthepage.lib.utexas.edu/benwbrum/latam-digital-edition-and-gazetteer/alcedo-thompson-1/transcribe/8766)
 * 4 [copy](https://raw.githubusercontent.com/benwbrum/Alcedo/master/FTP/thompson/v1/004.txt) [paste](https://fromthepage.lib.utexas.edu/benwbrum/latam-digital-edition-and-gazetteer/alcedo-thompson-1/transcribe/8767)
 * 5 [copy](https://raw.githubusercontent.com/benwbrum/Alcedo/master/FTP/thompson/v1/005.txt) [paste](https://fromthepage.lib.utexas.edu/benwbrum/latam-digital-edition-and-gazetteer/alcedo-thompson-1/transcribe/8768)
