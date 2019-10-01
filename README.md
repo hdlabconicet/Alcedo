@@ -1,5 +1,7 @@
 # Alcedo
 
+[![DOI](https://zenodo.org/badge/125922418.svg)](https://zenodo.org/badge/latestdoi/125922418)
+
 # CONTEXT
 The LatAm project is an international collaboration of digital humanities scholars from [Brumfield Labs](http://www.brumfieldlabs.com/), [LLILAS Benson](https://llilasbenson.utexas.edu/), [World Historical Gazetteer](http://whgazetteer.org/), and [CONICET](http://www.conicet.gov.ar/). This project has been awarded with a Resource Development Grant by [Pelagios Commons](http://commons.pelagios.org/resource-development-grants/).
 
